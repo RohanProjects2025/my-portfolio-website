@@ -1,0 +1,188 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    font-weight: bold;
+}
+header{
+    background-color: #192277;
+    padding: 12px 0;
+    text-align: center;
+    border-bottom: white solid 2px;
+}
+
+nav ul li{
+ display: inline;
+ margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+#home{
+    /* background-color: pink; */
+    background-image: url('it3.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-position: cover;
+    color: white;
+    text-shadow:#333 8px 8px 4px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    height: 400px;
+}
+
+#home .hero{
+    /* padding: 80px 20px; */
+}
+
+#home h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+#home p{
+    font-size: 1.3em;
+    margin-bottom: 20px;
+}
+
+.pr-btn{
+    background-color: rgb(230, 12, 12);
+    color: white;
+    padding: 10px 20px;
+    text-shadow: none;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+#about {
+    background-color: #5e5ea5;
+    color: white;
+    padding: 20px;
+    line-height: 30px;
+}
+
+#about h2{
+    margin-bottom: 10px;
+}
+
+#about p{
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+#skills{
+    background-color: #5e5ea5;
+    color: white;
+    padding: 20px;
+    /* height: 200px; */
+}
+
+#skills h2{
+    margin-bottom: 10px;
+}
+
+#skills ul{
+    list-style: none;
+}
+
+#skills ul li{
+    background-color: rgb(99, 126, 165);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    width: 100px; 
+    height: 30px;
+    display: inline-flex;
+    margin-left: 20px;
+    margin: 10px 10px 10px 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: #333 solid 1px;
+}
+
+#resume{
+    background-color: #5e5ea5;
+    color: white;
+    padding: 20px;
+}
+
+#resume h2{
+    padding-bottom: 10px;
+}
+
+#resume #btn-view{
+    margin-top: 10px;
+    /* margin-left: 30px; */
+    padding: 5px 20px;
+    font-size: 0.9em;
+    background-color: #c5a5a5;
+    color: black;
+}
+
+#internships{
+    background-color: #5e5ea5;
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+#internships .intern{
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: normal;
+    padding: 10px;
+}
+
+#internships .intern p{
+    padding-top: 4px;
+}
+
+#projects{
+    background-color: #5e5ea5;
+    color: white;
+    padding: 20px;
+}
+
+#projects .pr{
+    padding: 10px;
+    font-size: 1.1em;
+    font-weight: normal;
+}
+
+#projects .pr h4{
+    padding-bottom: 5px;
+}
+
+#projects .pr p{
+    font-weight: normal;
+    line-height: 22px;
+}
+
+#projects .pr .lang{
+    display: flex;
+    
+}
+
+#contact{
+    background-color: #5e5ea5;
+    color: white;
+    padding: 20px;
+}
+#contact .links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
